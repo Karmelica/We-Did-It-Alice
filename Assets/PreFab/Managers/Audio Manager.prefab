@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7892442224589835166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6560345997803657653}
+  - component: {fileID: 1394896592411911809}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6560345997803657653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892442224589835166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1055592323336200603}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394896592411911809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892442224589835166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7145ecb9f4fdf34b9cb3400d1ce0464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8226443885114294113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055592323336200603}
+  - component: {fileID: 4000853478896960108}
+  m_Layer: 0
+  m_Name: FMOD Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1055592323336200603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226443885114294113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6560345997803657653}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4000853478896960108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226443885114294113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9080981c032c437cb863b2d1958dbda1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiButtonClick:
+    Guid:
+      Data1: 1370284211
+      Data2: 1171584366
+      Data3: -1963973216
+      Data4: 507673349
+    Path: event:/UI/ButtonClick
+  starHover:
+    Guid:
+      Data1: -1391806303
+      Data2: 1229211114
+      Data3: -1081560675
+      Data4: -268163226
+    Path: event:/Star/starHover
+  starClick:
+    Guid:
+      Data1: -513026075
+      Data2: 1332593783
+      Data3: 1435081097
+      Data4: 513488942
+    Path: event:/Star/starClick
+  menuAmbient:
+    Guid:
+      Data1: -632558757
+      Data2: 1245543655
+      Data3: 2009481625
+      Data4: 1100086694
+    Path: event:/Ambient/menuAmbient
+  levelSelectAmbient:
+    Guid:
+      Data1: -1418333845
+      Data2: 1255716488
+      Data3: 605552310
+      Data4: -1987617074
+    Path: event:/Ambient/levelSelectAmbient
+  catPurr:
+    Guid:
+      Data1: -1162939383
+      Data2: 1208651763
+      Data3: -488289858
+      Data4: 1697736970
+    Path: event:/Cat/catDrag

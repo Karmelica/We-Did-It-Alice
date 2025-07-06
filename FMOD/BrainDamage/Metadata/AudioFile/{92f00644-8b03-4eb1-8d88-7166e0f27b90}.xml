@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{92f00644-8b03-4eb1-8d88-7166e0f27b90}">
+		<property name="assetPath">
+			<value>Clothes/ubrania long - Trimmed (3).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc4bb66d-30ae-489e-b657-6312502874e5}</destination>
+		</relationship>
+	</object>
+</objects>
