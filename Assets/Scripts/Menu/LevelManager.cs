@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.Instance.levelAmbient.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         ChangeLevelProgress();
         dialogueBox.SetActive(!MenuManager.Instance.introCompleted);
     }

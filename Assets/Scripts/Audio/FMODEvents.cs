@@ -14,8 +14,11 @@ public class FMODEvents : MonoBehaviour
     [Header("Ambient")]
     public EventReference menuAmbient;
     public EventReference levelSelectAmbient;
-    
+    public EventReference levelAmbient;
+
     [Header("SFX")]
+    public EventReference clothes;
+    public EventReference slap;
     public EventReference catPurr;
 
     void Awake()

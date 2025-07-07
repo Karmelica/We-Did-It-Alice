@@ -131,6 +131,27 @@ MonoBehaviour:
       Data3: 605552310
       Data4: -1987617074
     Path: event:/Ambient/levelSelectAmbient
+  levelAmbient:
+    Guid:
+      Data1: -843774624
+      Data2: 1275325065
+      Data3: 668543876
+      Data4: -522049546
+    Path: event:/Ambient/levelAmbients
+  clothes:
+    Guid:
+      Data1: -1326518356
+      Data2: 1217104470
+      Data3: 380358055
+      Data4: -229515659
+    Path: event:/Clothes/clothPlaceDown
+  slap:
+    Guid:
+      Data1: -1842152388
+      Data2: 1119737259
+      Data3: -1020606324
+      Data4: 690927175
+    Path: event:/Cat/slapping
   catPurr:
     Guid:
       Data1: -1162939383

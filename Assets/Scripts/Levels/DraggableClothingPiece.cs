@@ -30,6 +30,7 @@ public class DraggableClothingPiece : MonoBehaviour, IBeginDragHandler, IDragHan
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        AudioManager.Instance.PlaySoundOneShot(FMODEvents.Instance.clothes, transform.position);
         originalParent = transform.parent;
         canvasGroup.blocksRaycasts = false;
         transform.SetParent(canvas.transform, true);

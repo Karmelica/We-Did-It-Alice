@@ -10,7 +10,9 @@ public class AudioManager : MonoBehaviour
         private List<EventInstance> _instancesList = new();
         private EventInstance _starHoverInstance;
         
+        public EventInstance levelSelectAmbientInstance;
         public EventInstance menuAmbientInstance;
+        public EventInstance levelAmbient;
         
         private void Awake()
         {
@@ -25,6 +27,9 @@ public class AudioManager : MonoBehaviour
             }
             
             _starHoverInstance = CreateNewEventInstance(FMODEvents.Instance.starHover);
+            levelAmbient = CreateNewEventInstance(FMODEvents.Instance.levelAmbient);
+            menuAmbientInstance = CreateNewEventInstance(FMODEvents.Instance.menuAmbient);
+            levelSelectAmbientInstance = CreateNewEventInstance(FMODEvents.Instance.levelSelectAmbient);
         }
 
         public void Purr()
@@ -34,7 +39,7 @@ public class AudioManager : MonoBehaviour
 
         private void Start()
         {
-            PlayMenuAmbient();
+            menuAmbientInstance.start();
         }
 
         public void ButtonClick()
@@ -55,18 +60,6 @@ public class AudioManager : MonoBehaviour
         public void StarStopHover()
         {
             _starHoverInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        }
-        
-        public void PlayMenuAmbient()
-        {
-            menuAmbientInstance = CreateNewEventInstance(FMODEvents.Instance.menuAmbient);
-            menuAmbientInstance.start();
-        }
-        
-        public void PlayLevelSelectAmbient()
-        {
-            menuAmbientInstance = CreateNewEventInstance(FMODEvents.Instance.levelSelectAmbient);
-            menuAmbientInstance.start();
         }
 
         private EventInstance CreateNewEventInstance(EventReference eventReference)

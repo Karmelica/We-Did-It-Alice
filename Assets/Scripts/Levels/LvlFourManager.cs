@@ -1,14 +1,21 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LvlFourManager : MonoBehaviour
 {
     public RectTransform[] trailPoints;
+    public GameObject glooberSpawner;
+
+    public Image progressBar;
+    private bool gameStarted;
     
     private bool canContinue;
     private bool endSequenceStarted;
     public string[] completedDialogueLines;
+    public string[] goodLines;
+    public string[] badLines;
     public LvlFourDialogueBox dialogueBox;
     static public LvlFourManager Instance;
     
@@ -22,16 +29,37 @@ public class LvlFourManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        StartCoroutine(AtStart());
     }
     
 
     void Update()
     {
-        
         if (endSequenceStarted) return;
+        
+        if (gameStarted && progressBar.fillAmount < 1f)
+        {
+            progressBar.fillAmount += Time.deltaTime * 0.02f;
+        }
+        if(progressBar.fillAmount >= 1f && !canContinue)
+        {
+            canContinue = true;
+        }
+        
+        
+        
         if (!canContinue) return;
         endSequenceStarted = true;
         StartCoroutine(HandleWin());
+    }
+    
+    private IEnumerator AtStart()
+    {
+        while (!dialogueBox.completedDialogue)
+            yield return null;
+        glooberSpawner.SetActive(true);
+        gameStarted = true;
     }
     
     private IEnumerator HandleWin()
@@ -42,6 +70,6 @@ public class LvlFourManager : MonoBehaviour
         while (!dialogueBox.completedDialogue)
             yield return null;
         // Przejdź do sceny o indeksie 1
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
 }

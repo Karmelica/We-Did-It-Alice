@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    public Animator cutsceneAnimator;
     private Animator _animator;
     private RectTransform rectTransform;
     private Vector2 originalPosition;
@@ -22,8 +23,9 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     private void Start()
     {
+        AudioManager.Instance.menuAmbientInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        AudioManager.Instance.levelSelectAmbientInstance.start();
         _animator = GetComponent<Animator>();
-        AudioManager.Instance.PlayLevelSelectAmbient();
     }
 
     private void OnDisable()
@@ -90,12 +92,21 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
         {
             SetOverTarget(true);
             MenuManager.Instance.gameProgression = foundTarget.levelNumber;
-            SceneManager.LoadScene(MenuManager.Instance.gameProgression + 1);
+            StartCoroutine(ShowCutsceneAndLoadScene());
         }
         else
         {
             resetCoroutine = StartCoroutine(ResetPositionAndRotation());
         }
+    }
+    
+    private IEnumerator ShowCutsceneAndLoadScene()
+    {
+        cutsceneAnimator.SetInteger("Level" ,MenuManager.Instance.gameProgression);
+        yield return new WaitForSeconds(5f); // Czas trwania cutscenki
+        AudioManager.Instance.levelAmbient.start();
+        AudioManager.Instance.levelAmbient.setParameterByName("Level", MenuManager.Instance.gameProgression - 1);
+        SceneManager.LoadScene(MenuManager.Instance.gameProgression + 1);
     }
 
     private IEnumerator ResetPositionAndRotation()

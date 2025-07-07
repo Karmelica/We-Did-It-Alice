@@ -68,6 +68,15 @@ public class HealerCat : MonoBehaviour
                 }
             }
         }
+
+        if (heartUnderCat != null && !isWalking)
+        {
+            animator.SetBool("IsHealing", true);
+        }
+        else
+        {
+            animator.SetBool("IsHealing", false);
+        }
     }
 
     // Funkcja wykrywająca Image pod kotem, który ma komponent HeartHealer

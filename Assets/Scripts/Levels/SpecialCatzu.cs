@@ -11,7 +11,8 @@ public class SpecialCatzu : MonoBehaviour
     {
         if (other.CompareTag("Gloober"))
         {
-            other.SendMessage("KillYourself");
+            AudioManager.Instance.PlaySoundOneShot(FMODEvents.Instance.slap, transform.position);
+            other.GetComponent<Gloober>().KillYourself();
         }
     }
 

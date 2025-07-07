@@ -32,7 +32,6 @@ public class MenuManager : MonoBehaviour
     public void EnterBrain()
     {
         menuCanvasAnimator.SetTrigger("ClickedHead");
-        AudioManager.Instance.CleanUp();
     }
     
     public void Begin()
