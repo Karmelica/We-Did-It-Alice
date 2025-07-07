@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class HealerCat : MonoBehaviour
 {
+    private Animator animator;
     public GraphicRaycaster graphicRaycaster;
     public float moveSpeed = 800f;
     private Vector3? targetPosition = null;
@@ -12,11 +13,14 @@ public class HealerCat : MonoBehaviour
 
     void Awake()
     {
+        animator = GetComponent<Animator>();
         rectTransform = GetComponent<RectTransform>();
     }
 
     void Update()
     {
+        bool isWalking = false;
+
         if (Input.GetMouseButtonDown(0))
         {
             targetPosition = Input.mousePosition;
@@ -30,7 +34,13 @@ public class HealerCat : MonoBehaviour
                 rectTransform.position = targetPosition.Value;
                 targetPosition = null;
             }
+            else
+            {
+                isWalking = true;
+            }
         }
+
+        animator.SetBool("IsWalking", isWalking);
 
         // Pobierz wszystkie serca z LvlThreeManager
         var allHearts = LvlThreeManager.Instance != null ? LvlThreeManager.Instance.heartHealth : null;

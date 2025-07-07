@@ -176,6 +176,157 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9502d95d6d10f4585f6111ef9719f6, type: 3}
+--- !u!1001 &40033052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 708209942}
+    m_Modifications:
+    - target: {fileID: 3947660467655490424, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 452.4558
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 224.2806
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510831055603790024, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      propertyPath: m_Name
+      value: Dialogue Box
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6510831055603790024, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 40033056}
+  m_SourcePrefab: {fileID: 100100000, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+--- !u!224 &40033053 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5321467815764490286, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+  m_PrefabInstance: {fileID: 40033052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40033054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3947660467655490424, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+  m_PrefabInstance: {fileID: 40033052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &40033055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6510831055603790024, guid: 199c37cd93e1c01429770918af6c9b96, type: 3}
+  m_PrefabInstance: {fileID: 40033052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40033056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40033055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80d3f85e0a482342ac3c31e694f4b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completedDialogue: 0
+  portraits:
+  - {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
+  - {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  - {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  typingSpeed: 0.05
+  dialogueText: {fileID: 40033054}
+  dialogueLines:
+  - Those girls made fun of her...
+  - No one should be ashamed of their favourite things!
+  - We are putting those clothes back on, baby!
 --- !u!1 &60551248
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +338,7 @@ GameObject:
   - component: {fileID: 60551249}
   - component: {fileID: 60551251}
   - component: {fileID: 60551250}
+  - component: {fileID: 60551252}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -252,6 +404,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60551248}
   m_CullTransparentMesh: 1
+--- !u!225 &60551252
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60551248}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &63078617
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +520,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -8, y: 438}
-  m_SizeDelta: {x: 122.2025, y: 119.26}
+  m_SizeDelta: {x: 254.5837, y: 248.4536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &146044447
 MonoBehaviour:
@@ -451,6 +615,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canContinue: 0
+  dialogueBox: {fileID: 40033056}
+  completedDialogueLines:
+  - Don't listen to people like them...
+  - Passions are a huge part of our lives, don't let anybody take it from you.
+  - ...
+  - I'm a huge fan of MyLittlePony myself, thank you for asking.
+  - Back to the brain, second memory - finished!
 --- !u!4 &227032478
 Transform:
   m_ObjectHideFlags: 0
@@ -584,6 +755,8 @@ RectTransform:
   m_Children:
   - {fileID: 1192068143}
   - {fileID: 60551249}
+  - {fileID: 708209942}
+  - {fileID: 953369344}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -605,7 +778,7 @@ GameObject:
   - component: {fileID: 465648493}
   m_Layer: 5
   m_Name: Shoes Piece
-  m_TagString: Untagged
+  m_TagString: PerfectMatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,7 +799,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1691, y: -873}
+  m_AnchoredPosition: {x: 559, y: -905}
   m_SizeDelta: {x: 362, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465648491
@@ -680,6 +853,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: ShoeSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines:
+  - Some more colour, princess.
+  - It looks great on her, doesn't it?
+--- !u!1 &708209941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 708209942}
+  - component: {fileID: 708209945}
+  - component: {fileID: 708209944}
+  - component: {fileID: 708209943}
+  m_Layer: 5
+  m_Name: Portait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &708209942
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708209941}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 40033053}
+  m_Father: {fileID: 441806793}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 397, y: 394}
+  m_Pivot: {x: 1, y: 0}
+--- !u!225 &708209943
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708209941}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &708209944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708209941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &708209945
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708209941}
+  m_CullTransparentMesh: 1
 --- !u!1 &821549724
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +1052,11 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!224 &953369344 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+  m_PrefabInstance: {fileID: 2125820055633781535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &999256491
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +1092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 567, y: -335}
+  m_AnchoredPosition: {x: 482, y: -335}
   m_SizeDelta: {x: 362, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &999256493
@@ -831,6 +1108,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: LegSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines: []
 --- !u!114 &999256494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -958,7 +1243,7 @@ GameObject:
   - component: {fileID: 1049414937}
   m_Layer: 5
   m_Name: Shirt Piece
-  m_TagString: Untagged
+  m_TagString: PerfectMatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1033,6 +1318,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: ShirtSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines:
+  - Some more colour, princess.
+  - It looks great on her, doesn't it?
 --- !u!1 &1100292842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,7 +1342,7 @@ GameObject:
   - component: {fileID: 1100292846}
   m_Layer: 5
   m_Name: Skirt Piece
-  m_TagString: Untagged
+  m_TagString: PerfectMatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1068,7 +1363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213, y: -338}
+  m_AnchoredPosition: {x: 236, y: -338}
   m_SizeDelta: {x: 362, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100292844
@@ -1122,6 +1417,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: LegSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines:
+  - Some more colour, princess.
+  - It looks great on her, doesn't it?
 --- !u!1 &1130827783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,7 +1462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1373, y: -867}
+  m_AnchoredPosition: {x: 244, y: -899}
   m_SizeDelta: {x: 362, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130827785
@@ -1173,6 +1478,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: ShoeSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines: []
 --- !u!114 &1130827786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,10 +1703,10 @@ RectTransform:
   - {fileID: 1749769715}
   - {fileID: 1251295584}
   - {fileID: 465648490}
-  - {fileID: 1130827784}
   - {fileID: 1100292843}
-  - {fileID: 999256492}
   - {fileID: 1049414934}
+  - {fileID: 1130827784}
+  - {fileID: 999256492}
   - {fileID: 1720930854}
   m_Father: {fileID: 441806793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1454,7 +1767,7 @@ GameObject:
   - component: {fileID: 1251295587}
   m_Layer: 5
   m_Name: Head Piece
-  m_TagString: Untagged
+  m_TagString: PerfectMatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1475,7 +1788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 332, y: -896}
+  m_AnchoredPosition: {x: 1344, y: -925}
   m_SizeDelta: {x: 362, y: 362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251295585
@@ -1529,6 +1842,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: HeadSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines:
+  - Some more colour, princess.
+  - It looks great on her, doesn't it?
 --- !u!1 &1486696727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +2003,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredSlotTag: ShirtSlot
+  dialogueBox: {fileID: 40033056}
+  correctSlotLines:
+  - We were meant to bring some more magic into her life, this is boring!
+  - She needs Pinkie Pie, not this!
+  wrongSlotLines:
+  - Really? Is that how you wear your clothes?
+  - I highly doubt that placement...
+  perfectSlotLines: []
 --- !u!114 &1720930856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1875,6 +2206,103 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e76afd9b62ad4e4db2dfdc5db857b3d, type: 3}
+--- !u!1001 &2125820055633781535
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 441806793}
+    m_Modifications:
+    - target: {fileID: 810830770338633162, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_Name
+      value: Catzu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 261
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 242
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076769149039145190, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class HeartHealth : MonoBehaviour
     public float health = 100f;
     public bool draining;
     public bool healing;
+    public LvlThreeDialogueBox dialogueBox;
+    public LvlThreeManager lvlThreeManager;
 
     private float cooldownTimer = 0f;
     private const float cooldownDuration = 5f;
@@ -37,6 +39,9 @@ public class HeartHealth : MonoBehaviour
 
     private void Update()
     {
+        if(!dialogueBox.completedDialogue) return;
+        if(lvlThreeManager.canContinue || lvlThreeManager.failed) return;
+        
         if (cooldownTimer > 0f)
         {
             cooldownTimer -= Time.deltaTime;

@@ -15,14 +15,27 @@ public class PutClothes : MonoBehaviour
 
     public float progress = 0f;
     public Image progressBar;
+    
 
     void Update()
     {
         float newProgress = 0f;
-        if (IsPieceInSlot(headCorrectPiece, headSlot)) newProgress += 0.25f;
-        if (IsPieceInSlot(bodyCorrectPiece, bodySlot)) newProgress += 0.25f;
-        if (IsPieceInSlot(legCorrectPiece, legSlot)) newProgress += 0.25f;
-        if (IsPieceInSlot(footCorrectPiece, footSlot)) newProgress += 0.25f;
+        if (IsPieceInSlot(headCorrectPiece, headSlot))
+        {
+            newProgress += 0.25f;
+        }
+        if (IsPieceInSlot(bodyCorrectPiece, bodySlot))
+        {
+            newProgress += 0.25f;
+        }
+        if (IsPieceInSlot(legCorrectPiece, legSlot))
+        {
+            newProgress += 0.25f;
+        }
+        if (IsPieceInSlot(footCorrectPiece, footSlot))
+        {
+            newProgress += 0.25f;
+        }
 
         if (Mathf.Abs(progress - newProgress) > 0.001f)
         {

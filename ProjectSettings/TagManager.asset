@@ -9,6 +9,7 @@ TagManager:
   - LegSlot
   - ShoeSlot
   - BrokenHeart
+  - PerfectMatch
   layers:
   - Default
   - TransparentFX

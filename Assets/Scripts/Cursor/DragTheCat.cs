@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    private Animator _animator;
     private RectTransform rectTransform;
     private Vector2 originalPosition;
     private Coroutine resetCoroutine;
@@ -21,6 +22,7 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     private void Start()
     {
+        _animator = GetComponent<Animator>();
         AudioManager.Instance.PlayLevelSelectAmbient();
     }
 
@@ -31,6 +33,7 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        _animator.SetBool("Drag",true);
         if (resetCoroutine != null)
         {
             StopCoroutine(resetCoroutine);
@@ -65,6 +68,7 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        _animator.SetBool("Drag",false);
         DropTarget foundTarget = null;
         var pointerEventData = new PointerEventData(EventSystem.current)
         {

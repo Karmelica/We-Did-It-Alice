@@ -89,6 +89,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9080981c032c437cb863b2d1958dbda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogue:
+    Guid:
+      Data1: -951580202
+      Data2: 1340601817
+      Data3: 98374067
+      Data4: -668614681
+    Path: event:/Dialogue/dialogue
   uiButtonClick:
     Guid:
       Data1: 1370284211

@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    public GameObject dialogueBox;
+    
     [Header("Level Progression")]
     [SerializeField] private Image levelStatus;
     [SerializeField] private List<Image> enabledLevels = new();
@@ -14,6 +16,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         ChangeLevelProgress();
+        dialogueBox.SetActive(!MenuManager.Instance.introCompleted);
     }
 
     public void ChangeLevelProgress()

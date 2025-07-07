@@ -12,6 +12,12 @@ public class DraggableClothingPiece : MonoBehaviour, IBeginDragHandler, IDragHan
 
     public string requiredSlotTag;
 
+    // Referencja do okna dialogowego (przypisz w Inspectorze lub znajdź w kodzie)
+    public LvlTwoDialogueBox dialogueBox;
+    public string[] correctSlotLines;
+    public string[] wrongSlotLines;
+    public string[] perfectSlotLines;
+
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -45,11 +51,29 @@ public class DraggableClothingPiece : MonoBehaviour, IBeginDragHandler, IDragHan
                 transform.SetParent(target.transform, false);
                 if (target.CompareTag(requiredSlotTag))
                 {
-                    //Debug.Log($"{gameObject.name} poprawnie umieszczony w slocie {requiredSlotTag}");
+                    if (CompareTag("PerfectMatch"))
+                    {
+                        if (dialogueBox != null && perfectSlotLines != null && perfectSlotLines.Length > 0)
+                        {
+                            dialogueBox.gameObject.SetActive(true);
+                            dialogueBox.SetLinesAndShow(perfectSlotLines);
+                        }
+                    }
+                    // Wyświetl dialog o poprawnym umieszczeniu
+                    else if (dialogueBox != null && correctSlotLines != null && correctSlotLines.Length > 0)
+                    {
+                        dialogueBox.gameObject.SetActive(true);
+                        dialogueBox.SetLinesAndShow(correctSlotLines);
+                    }
                 }
                 else
                 {
-                    //Debug.LogWarning($"{gameObject.name} NIE jest w odpowiednim slocie! Oczekiwano: {requiredSlotTag}, znaleziono: {target.tag}");
+                    // Wyświetl dialog o błędnym slocie
+                    if (dialogueBox != null && wrongSlotLines != null && wrongSlotLines.Length > 0)
+                    {
+                        dialogueBox.gameObject.SetActive(true);
+                        dialogueBox.SetLinesAndShow(wrongSlotLines);
+                    }
                 }
             }
             else

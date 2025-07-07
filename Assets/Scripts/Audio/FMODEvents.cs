@@ -4,8 +4,9 @@ using UnityEngine;
 public class FMODEvents : MonoBehaviour
 {
     public static FMODEvents Instance;
-    
+
     [Header("UI")]
+    public EventReference dialogue;
     public EventReference uiButtonClick;
     public EventReference starHover;
     public EventReference starClick;

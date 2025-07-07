@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
     private Animator menuCanvasAnimator;
 
     public int gameProgression;
+    public bool introCompleted;
 
     private void Awake()
     {
@@ -41,7 +42,7 @@ public class MenuManager : MonoBehaviour
     
     public void Options()
     {
-        menuCanvasAnimator.SetTrigger("ClickedOptions");
+        menuCanvasAnimator.SetTrigger("ClickedCredits");
     }
     
     public void Quit()
