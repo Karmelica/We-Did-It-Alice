@@ -4,6 +4,8 @@ using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
 
+[DefaultExecutionOrder(50)]
+
 public class AudioManager : MonoBehaviour
     {
         public static AudioManager Instance;
@@ -72,14 +74,5 @@ public class AudioManager : MonoBehaviour
         public void PlaySoundOneShot(EventReference eventReference, Vector3 soundPos)
         {
             RuntimeManager.PlayOneShot(eventReference, soundPos);
-        }
-
-        public void CleanUp()
-        {
-            foreach(var instance in _instancesList)
-            {
-                instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-                instance.release();
-            }
         }
     }

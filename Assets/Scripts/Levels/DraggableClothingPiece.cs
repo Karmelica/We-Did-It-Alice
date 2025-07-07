@@ -14,9 +14,9 @@ public class DraggableClothingPiece : MonoBehaviour, IBeginDragHandler, IDragHan
 
     // Referencja do okna dialogowego (przypisz w Inspectorze lub znajdź w kodzie)
     public LvlTwoDialogueBox dialogueBox;
-    public string[] correctSlotLines;
-    public string[] wrongSlotLines;
-    public string[] perfectSlotLines;
+    public DialogueLine[] correctSlotLines;
+    public DialogueLine[] wrongSlotLines;
+    public DialogueLine[] perfectSlotLines;
 
     void Awake()
     {

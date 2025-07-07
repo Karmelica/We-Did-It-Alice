@@ -13,9 +13,9 @@ public class LvlFourManager : MonoBehaviour
     
     private bool canContinue;
     private bool endSequenceStarted;
-    public string[] completedDialogueLines;
-    public string[] goodLines;
-    public string[] badLines;
+    public DialogueLine[] completedDialogueLines;
+    public DialogueLine[] goodLines;
+    public DialogueLine[] badLines;
     public LvlFourDialogueBox dialogueBox;
     static public LvlFourManager Instance;
     
@@ -66,10 +66,9 @@ public class LvlFourManager : MonoBehaviour
     {
         dialogueBox.gameObject.SetActive(true);
         dialogueBox.StartDialogue(completedDialogueLines);
-        // Czekaj aż okno dialogowe się zamknie
         while (!dialogueBox.completedDialogue)
             yield return null;
-        // Przejdź do sceny o indeksie 1
         SceneManager.LoadScene(6);
+        AudioManager.Instance.levelAmbient.setParameterByName("Level", 4);
     }
 }

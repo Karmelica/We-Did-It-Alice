@@ -314,19 +314,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDialogue: 0
-  portraits:
-  - {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
-  - {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
-  - {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
-  - {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
-  - {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
-  - {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  portraitImage: {fileID: 708209944}
   typingSpeed: 0.05
   dialogueText: {fileID: 40033054}
   dialogueLines:
-  - Those girls made fun of her...
-  - No one should be ashamed of their favourite things!
-  - We are putting those clothes back on, baby!
+  - text: Those girls made fun of her...
+    portrait: {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
+  - text: No one should be ashamed of their favourite things!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: We are putting those clothes back on, baby!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
 --- !u!1 &60551248
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,11 +614,16 @@ MonoBehaviour:
   canContinue: 0
   dialogueBox: {fileID: 40033056}
   completedDialogueLines:
-  - Don't listen to people like them...
-  - Passions are a huge part of our lives, don't let anybody take it from you.
-  - ...
-  - I'm a huge fan of MyLittlePony myself, thank you for asking.
-  - Back to the brain, second memory - finished!
+  - text: Don't listen to people like them...
+    portrait: {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
+  - text: Passions are a huge part of our lives, don't let anybody take it from you.
+    portrait: {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
+  - text: ...
+    portrait: {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  - text: I'm a huge fan of MyLittlePony myself, thank you for asking.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: Back to the brain, second memory - finished!
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
 --- !u!4 &227032478
 Transform:
   m_ObjectHideFlags: 0
@@ -855,14 +857,20 @@ MonoBehaviour:
   requiredSlotTag: ShoeSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
   perfectSlotLines:
-  - Some more colour, princess.
-  - It looks great on her, doesn't it?
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!1 &708209941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,12 +1118,20 @@ MonoBehaviour:
   requiredSlotTag: LegSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
-  perfectSlotLines: []
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  perfectSlotLines:
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!114 &999256494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,14 +1336,20 @@ MonoBehaviour:
   requiredSlotTag: ShirtSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
   perfectSlotLines:
-  - Some more colour, princess.
-  - It looks great on her, doesn't it?
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!1 &1100292842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,14 +1441,20 @@ MonoBehaviour:
   requiredSlotTag: LegSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
   perfectSlotLines:
-  - Some more colour, princess.
-  - It looks great on her, doesn't it?
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!1 &1130827783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,12 +1508,20 @@ MonoBehaviour:
   requiredSlotTag: ShoeSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
-  perfectSlotLines: []
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  perfectSlotLines:
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!114 &1130827786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,14 +1880,20 @@ MonoBehaviour:
   requiredSlotTag: HeadSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
   perfectSlotLines:
-  - Some more colour, princess.
-  - It looks great on her, doesn't it?
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!1 &1486696727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,12 +2047,20 @@ MonoBehaviour:
   requiredSlotTag: ShirtSlot
   dialogueBox: {fileID: 40033056}
   correctSlotLines:
-  - We were meant to bring some more magic into her life, this is boring!
-  - She needs Pinkie Pie, not this!
+  - text: We were meant to bring some more magic into her life, this is boring!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: She needs Pinkie Pie, not this!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   wrongSlotLines:
-  - Really? Is that how you wear your clothes?
-  - I highly doubt that placement...
-  perfectSlotLines: []
+  - text: Really? Is that how you wear your clothes?
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  - text: I highly doubt that placement...
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
+  perfectSlotLines:
+  - text: Some more colour, princess.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: It looks great on her, doesn't it?
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!114 &1720930856
 MonoBehaviour:
   m_ObjectHideFlags: 0

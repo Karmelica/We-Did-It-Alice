@@ -104,6 +104,7 @@ public class DragTheCat : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
     {
         cutsceneAnimator.SetInteger("Level" ,MenuManager.Instance.gameProgression);
         yield return new WaitForSeconds(5f); // Czas trwania cutscenki
+        AudioManager.Instance.levelSelectAmbientInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         AudioManager.Instance.levelAmbient.start();
         AudioManager.Instance.levelAmbient.setParameterByName("Level", MenuManager.Instance.gameProgression - 1);
         SceneManager.LoadScene(MenuManager.Instance.gameProgression + 1);

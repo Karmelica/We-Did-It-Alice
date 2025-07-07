@@ -453,20 +453,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDialogue: 0
-  portraits:
-  - {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
-  - {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
-  - {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
-  - {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
-  - {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
-  - {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  portraitImage: {fileID: 2074686675}
   typingSpeed: 0.05
   dialogueText: {fileID: 1199239126}
   dialogueLines:
-  - ...
-  - Her mother didn't like the drawing she made.
-  - Let's see what we can do about it, yeah?
-  - Finish those patterns!
+  - text: ...
+    portrait: {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  - text: Her mother didn't like the drawing she made.
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  - text: Let's see what we can do about it, yeah?
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  - text: Finish those patterns!
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
 --- !u!1 &217920340 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 810830770338633162, guid: 339399b79bb5a464aa70050d72428e1d, type: 3}
@@ -709,9 +707,12 @@ MonoBehaviour:
   canContinue: 0
   dialogueBox: {fileID: 136620763}
   completedDialogueLines:
-  - It just needed some extra work.
-  - Now she's proud of herself!
-  - First memory, done.
+  - text: It just needed some extra work.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: Now she's proud of herself!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: First memory, done.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!4 &725843691
 Transform:
   m_ObjectHideFlags: 0

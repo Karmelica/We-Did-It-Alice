@@ -474,8 +474,10 @@ MonoBehaviour:
   typingSpeed: 0.05
   dialogueText: {fileID: 538193687}
   dialogueLines:
-  - Hey, I think our friend here needs some help!
-  - I'm Rotamimi and I'll show you what to do, pick me up!
+  - text: Hey, I think our friend here needs some help!
+    portrait: {fileID: 0}
+  - text: I'm Rotamimi and I'll show you what to do, pick me up!
+    portrait: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

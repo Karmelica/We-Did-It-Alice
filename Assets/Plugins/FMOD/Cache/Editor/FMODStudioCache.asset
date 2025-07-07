@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/BrainDamage/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638874927690797058
+  lastModified: 638874954554411969
   FileSizes:
   - Name: Desktop
-    Value: 9236032
+    Value: 3400
   Exists: 1
 --- !u!114 &-5482763752267421841
 MonoBehaviour:
@@ -39,7 +39,7 @@ MonoBehaviour:
     Data3: -488289858
     Data4: 1697736970
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 7051814938498776416}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -62,7 +62,7 @@ MonoBehaviour:
   Name: Level
   StudioPath: 
   Min: 0
-  Max: 3
+  Max: 4
   Default: 0
   ID:
     data1: 4243822339
@@ -74,6 +74,7 @@ MonoBehaviour:
   - Level2
   - Level3
   - Level4
+  - Outro
   Exists: 1
 --- !u!114 &-2333321684777805336
 MonoBehaviour:
@@ -94,7 +95,7 @@ MonoBehaviour:
     Data3: 98374067
     Data4: -668614681
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 8581826452170854805}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -117,10 +118,10 @@ MonoBehaviour:
   Path: FMOD/BrainDamage/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638874927690817057
+  lastModified: 638874954554427101
   FileSizes:
   - Name: Desktop
-    Value: 1684
+    Value: 1840
   Exists: 1
 --- !u!114 &-747053608578414498
 MonoBehaviour:
@@ -168,7 +169,7 @@ MonoBehaviour:
     Data3: 1435081097
     Data4: 513488942
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 8810610560884379924}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -191,6 +192,10 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -1149958813650157717}
   - {fileID: -8288821908038427667}
+  - {fileID: 3570157179772806862}
+  - {fileID: 8581826452170854805}
+  - {fileID: 7051814938498776416}
+  - {fileID: 8810610560884379924}
   EditorEvents:
   - {fileID: 8497488843456843983}
   - {fileID: 2609356481150402052}
@@ -209,7 +214,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1149958813650157717}
   cacheVersion: 131848
-  cacheTime: 638874927690817057
+  cacheTime: 638874959803333894
   SerializableEventsDict:
   - key: event:/UI/buttonClick
     index: 0
@@ -252,7 +257,7 @@ MonoBehaviour:
     Data3: -1081560675
     Data4: -268163226
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 8810610560884379924}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -279,7 +284,7 @@ MonoBehaviour:
     Data3: 2009481625
     Data4: 1100086694
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 3570157179772806862}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -287,6 +292,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 78000
+--- !u!114 &3570157179772806862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambient.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/BrainDamage/Build/Desktop/Ambient.bank
+  Name: Ambient
+  StudioPath: bank:/Ambient
+  lastModified: 638874959803333894
+  FileSizes:
+  - Name: Desktop
+    Value: 11109952
+  Exists: 1
 --- !u!114 &3895000558532010544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +331,7 @@ MonoBehaviour:
     Data3: -1020606324
     Data4: 690927175
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 7051814938498776416}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -333,7 +358,7 @@ MonoBehaviour:
     Data3: 668543876
     Data4: -522049546
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 3570157179772806862}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -361,7 +386,7 @@ MonoBehaviour:
     Data3: 605552310
     Data4: -1987617074
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 3570157179772806862}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -369,6 +394,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 320000
+--- !u!114 &7051814938498776416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/BrainDamage/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638874954554814685
+  FileSizes:
+  - Name: Desktop
+    Value: 251776
+  Exists: 1
 --- !u!114 &7828846946559270187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,7 +433,7 @@ MonoBehaviour:
     Data3: 380358055
     Data4: -229515659
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 7051814938498776416}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -415,7 +460,7 @@ MonoBehaviour:
     Data3: -1963973216
     Data4: 507673349
   Banks:
-  - {fileID: -8288821908038427667}
+  - {fileID: 8810610560884379924}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -423,3 +468,43 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1800
+--- !u!114 &8581826452170854805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/BrainDamage/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 638874954556183649
+  FileSizes:
+  - Name: Desktop
+    Value: 24384
+  Exists: 1
+--- !u!114 &8810610560884379924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/BrainDamage/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638874954555896059
+  FileSizes:
+  - Name: Desktop
+    Value: 286624
+  Exists: 1

@@ -152,12 +152,17 @@ MonoBehaviour:
   failed: 0
   dialogueBox: {fileID: 4889211}
   failedDialogueLines:
-  - We can't let them break! Think faster, chucklenuts!
-  - Wake up, no more hearts left to lose!
+  - text: We can't let them break! Think faster, chucklenuts!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: Wake up, no more hearts left to lose!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   completedDialogueLines:
-  - Look, a heart!
-  - One she might share with someone someday.
-  - We're done here.
+  - text: Look, a heart!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: One she might share with someone someday.
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: We're done here.
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
   heartHealth:
   - {fileID: 2031437202}
   - {fileID: 1128702706}
@@ -320,20 +325,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDialogue: 0
-  portraits:
-  - {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
-  - {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
-  - {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
-  - {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
-  - {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
-  - {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  portraitImage: {fileID: 1719085142}
   typingSpeed: 0.05
   dialogueText: {fileID: 4889209}
   dialogueLines:
-  - Nothing hurts as much as the first serious heartbreak...
-  - ...
-  - We're not here to stare, but to help!
-  - I will heal this broken heart, just tell me which one!
+  - text: Nothing hurts as much as the first serious heartbreak...
+    portrait: {fileID: -1768914292978778935, guid: 37da8a3419b5c6f40839fed2aaefd6ad, type: 3}
+  - text: ...
+    portrait: {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  - text: We're not here to stare, but to help!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: I will heal this broken heart, just tell me which one!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
 --- !u!1001 &33703778
 PrefabInstance:
   m_ObjectHideFlags: 0

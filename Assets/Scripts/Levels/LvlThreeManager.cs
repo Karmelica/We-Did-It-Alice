@@ -10,8 +10,8 @@ public class LvlThreeManager : MonoBehaviour
     public bool failed = false;
     
     public LvlThreeDialogueBox dialogueBox;
-    public string[] failedDialogueLines;
-    public string[] completedDialogueLines;
+    public DialogueLine[] failedDialogueLines;
+    public DialogueLine[] completedDialogueLines;
     
     public List<HeartHealth> heartHealth;
     

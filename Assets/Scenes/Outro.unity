@@ -302,13 +302,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDialogue: 0
-  portraits: []
+  portraitImage: {fileID: 1965299188}
   typingSpeed: 0.05
   dialogueText: {fileID: 466864944}
   dialogueLines:
-  - I think we actually helped!
-  - Good job to me...
-  - ...and of course to you too, pal!
+  - text: I think we actually helped!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: Good job to me...
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: ...and of course to you too, pal!
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
 --- !u!1001 &649554040
 PrefabInstance:
   m_ObjectHideFlags: 0

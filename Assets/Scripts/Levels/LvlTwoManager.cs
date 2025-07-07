@@ -8,7 +8,7 @@ public class LvlTwoManager : MonoBehaviour
     static public LvlTwoManager Instance;
     public bool canContinue = false;
     public LvlTwoDialogueBox dialogueBox;
-    public string[] completedDialogueLines;
+    public DialogueLine[] completedDialogueLines;
     private bool endSequenceStarted;
 
     private void Awake()

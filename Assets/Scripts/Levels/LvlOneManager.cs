@@ -7,7 +7,7 @@ public class LvlOneManager : MonoBehaviour
     static public LvlOneManager Instance;
     public bool canContinue = false;
     public LvlOneDialogueBox dialogueBox;
-    public string[] completedDialogueLines;
+    public DialogueLine[] completedDialogueLines;
     private bool endSequenceStarted;
     
     private void Awake()

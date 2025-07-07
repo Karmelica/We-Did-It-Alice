@@ -9,16 +9,15 @@ public abstract class DialogueManager : MonoBehaviour
 {
     public bool completedDialogue;
     
-    public Sprite[] portraits;
+    public Image portraitImage;
     
     public float typingSpeed = 0.05f;
     
     public TextMeshProUGUI dialogueText;
     
-    [TextArea(1, 5)]
-    public string[] dialogueLines;
+    public DialogueLine[] dialogueLines;
     
-    private int currentLineIndex = 0;
+    private int currentLineIndex = 0;   
 
     private void Update()
     {
@@ -30,7 +29,7 @@ public abstract class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(string[] thisDialogueLines)
+    public void StartDialogue(DialogueLine[] thisDialogueLines)
     {
         StopAllCoroutines();
         completedDialogue = false;
@@ -40,11 +39,15 @@ public abstract class DialogueManager : MonoBehaviour
         }
     }
 
-    IEnumerator PlayDialogue(string[] localDialogueLines)
+    IEnumerator PlayDialogue(DialogueLine[] localDialogueLines)
     {
         for (currentLineIndex = 0; currentLineIndex < localDialogueLines.Length; currentLineIndex++)
         {
-            yield return StartCoroutine(TypeLine(localDialogueLines[currentLineIndex]));
+            if(portraitImage)
+            {
+                portraitImage.sprite = localDialogueLines[currentLineIndex].portrait;
+            }  
+            yield return StartCoroutine(TypeLine(localDialogueLines[currentLineIndex].text));
             yield return new WaitForSeconds(2f); // przerwa między linijkami
         }
         // Wyłącz okienko dialogowe po zakończeniu
@@ -66,7 +69,7 @@ public abstract class DialogueManager : MonoBehaviour
         }
     }
     
-    public void SetLinesAndShow(string[] lines)
+    public void SetLinesAndShow(DialogueLine[] lines)
     {
         StopAllCoroutines();
         if (lines != null && lines.Length > 0)
@@ -76,7 +79,7 @@ public abstract class DialogueManager : MonoBehaviour
         }
         else
         {
-            dialogueLines = Array.Empty<string>();
+            dialogueLines = Array.Empty<DialogueLine>();
         }
         StartDialogue(dialogueLines);
     }

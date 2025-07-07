@@ -18,6 +18,7 @@ public class OutroManager : MonoBehaviour
     {
         while (!dialogueBox.completedDialogue)
             yield return null;
+        yield return new WaitForSeconds(5f);
         Application.Quit();
     }
 }

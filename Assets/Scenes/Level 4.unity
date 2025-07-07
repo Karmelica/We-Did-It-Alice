@@ -660,13 +660,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDialogue: 0
-  portraits: []
+  portraitImage: {fileID: 2037480516}
   typingSpeed: 0.05
   dialogueText: {fileID: 350183608}
   dialogueLines:
-  - Her friends made her drink beer, how mean! That's-...
-  - ...oh... OH. It's coming! She's about to puke!
-  - Hold the line!
+  - text: Her friends made her drink beer, how mean! That's-...
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: ...oh... OH. It's coming! She's about to puke!
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  - text: Hold the line!
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
 --- !u!1 &445260447
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,18 +747,25 @@ MonoBehaviour:
   - {fileID: 106815868}
   glooberSpawner: {fileID: 601343782}
   progressBar: {fileID: 1777740624}
-  progression: 0
   completedDialogueLines:
-  - Alcohol isn't a requirement when you want to have fun!
-  - ...
-  - It's time to change friends.
-  - And beverage choices.
+  - text: Alcohol isn't a requirement when you want to have fun!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: ...
+    portrait: {fileID: 4956051480600633658, guid: 4ae40a75508d6354ca6f19edd5254f39, type: 3}
+  - text: It's time to change friends.
+    portrait: {fileID: -7603651271861851847, guid: 8414cfe84ea84c94cb2947bb6fd6d2f6, type: 3}
+  - text: And beverage choices.
+    portrait: {fileID: -4369534695295727727, guid: fb0dca33f1a1ce74b9ed9fee4a71539d, type: 3}
   goodLines:
-  - Trick shot!
-  - I was born for this!
+  - text: Trick shot!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
+  - text: I was born for this!
+    portrait: {fileID: 2351329660761504471, guid: 01faa1abcc4bb834c8ed6ad1b820f299, type: 3}
   badLines:
-  - Get it together! We can't let it leave her mouth!
-  - Look out!
+  - text: Get it together! We can't let it leave her mouth!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
+  - text: Look out!
+    portrait: {fileID: 8259905531688303228, guid: 261c9f010d6a17f419f36ff9eab90656, type: 3}
   dialogueBox: {fileID: 350183610}
 --- !u!4 &575297722
 Transform:

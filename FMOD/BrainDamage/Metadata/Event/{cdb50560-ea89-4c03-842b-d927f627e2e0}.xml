@@ -35,7 +35,7 @@
 			<destination>{dbe4fac0-2b37-4543-9363-fd2e4f27de64}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{c3e13cc6-4f97-4c6a-abae-528eaea5d37c}</destination>
+			<destination>{ccf8b348-8714-4936-a54a-17da19530338}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c47f855e-6d13-4326-a4e3-b0bd789978f9}">
@@ -70,6 +70,7 @@
 			<destination>{06c15cc7-d1da-4f9f-a972-5cad576ebcd2}</destination>
 			<destination>{fd177c20-1530-48bd-91d1-aa783c44ccc6}</destination>
 			<destination>{09c70a06-4ec5-4f35-8274-8ce5a089edd0}</destination>
+			<destination>{a4bb32b5-896c-4834-ab27-fe3af6f5127a}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ccc52cc7-ac20-459e-ae26-ce8ed1f29b19}</destination>
@@ -86,6 +87,7 @@
 			<destination>{06c15cc7-d1da-4f9f-a972-5cad576ebcd2}</destination>
 			<destination>{fd177c20-1530-48bd-91d1-aa783c44ccc6}</destination>
 			<destination>{09c70a06-4ec5-4f35-8274-8ce5a089edd0}</destination>
+			<destination>{a4bb32b5-896c-4834-ab27-fe3af6f5127a}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{b9ac01e3-edb8-46a5-9fdc-ebc438988242}</destination>
@@ -114,6 +116,9 @@
 	<object class="EventSound" id="{ce2698e1-226e-4561-a753-a8b6e6778409}">
 		<property name="isCutoff">
 			<value>true</value>
+		</property>
+		<property name="volume">
+			<value>-8</value>
 		</property>
 		<relationship name="event">
 			<destination>{26c4b3f4-cb53-4398-9b19-7c0be4471e32}</destination>
@@ -152,9 +157,20 @@
 			<destination>{1448a945-1250-42fe-97ac-b52423f6a970}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{a4bb32b5-896c-4834-ab27-fe3af6f5127a}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>4</value>
+		</property>
+		<relationship name="event">
+			<destination>{68ca0c1d-3216-4e28-aa26-9b8656730196}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{ccc52cc7-ac20-459e-ae26-ce8ed1f29b19}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-15.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
