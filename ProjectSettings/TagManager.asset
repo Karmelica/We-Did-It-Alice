@@ -10,6 +10,7 @@ TagManager:
   - ShoeSlot
   - BrokenHeart
   - PerfectMatch
+  - Gloober
   layers:
   - Default
   - TransparentFX
